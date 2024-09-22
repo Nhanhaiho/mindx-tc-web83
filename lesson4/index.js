@@ -17,7 +17,7 @@ connectDatabase()
     app.use(express.json());
 
     // Define routes
-    // 1
+    // bai 1
     app.post("/api/v1/users", async (req, res) => {
       try {
         const { userName, email } = req.body;
@@ -48,7 +48,7 @@ connectDatabase()
       }
     });
 
-    // 2
+    // bai 2
     app.post("/api/v1/posts", async (req, res) => {
       try {
         const { title, content, userId } = req.body;
@@ -76,7 +76,7 @@ connectDatabase()
       }
     });
 
-    // 3
+    // bai 3
     app.put("/api/v1/posts/:id", async (req, res) => {
       try {
         const { id } = req.params;
@@ -108,7 +108,7 @@ connectDatabase()
       }
     });
 
-    // 4
+    // bai 4
     app.post("/api/v1/comments", async (req, res) => {
       try {
         const { content, userId, postId } = req.body;
@@ -136,7 +136,7 @@ connectDatabase()
       }
     });
 
-    // 5
+    // bai 5
     app.put("/api/v1/comments/:id", async (req, res) => {
       try {
         const { id } = req.params;
@@ -167,7 +167,7 @@ connectDatabase()
       }
     });
 
-    // 6
+    // bai 6
     app.get("/api/v1/posts/:postId/comments", async (req, res) => {
       try {
         const { postId } = req.params;
@@ -190,7 +190,7 @@ connectDatabase()
       }
     });
 
-    // 7
+    // bai 7
     app.get("/api/v1/posts", async (req, res) => {
       try {
         const posts = await PostsModel.find().populate({
@@ -213,7 +213,7 @@ connectDatabase()
       }
     });
 
-    // 8
+    // bai 8
     app.get("/api/v1/posts/:postId", async (req, res) => {
       try {
         const { postId } = req.params;
