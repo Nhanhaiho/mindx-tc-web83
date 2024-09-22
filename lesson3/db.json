@@ -1,0 +1,163 @@
+{
+  "users": [
+    {
+      "id": "US001",
+      "userName": "Nguyen Van Cuong",
+      "email": "nguyen@gmail.com",
+      "age": 27,
+      "avatar": "http://..."
+    },
+    {
+      "id": "US002",
+      "userName": "Cheryl Holt",
+      "email": "jamiehiggins@yahoo.com",
+      "age": 22,
+      "avatar": "https://placekitten.com/141/639"
+    },
+    {
+      "id": "US003",
+      "userName": "Allison Guzman",
+      "email": "amandawilson@williams.biz",
+      "age": 56,
+      "avatar": "https://placeimg.com/916/205/any"
+    },
+    {
+      "id": "US004",
+      "userName": "Amy Stewart",
+      "email": "franklinrobert@yahoo.com",
+      "age": 45,
+      "avatar": "https://dummyimage.com/520x1023"
+    },
+    {
+      "id": "US005",
+      "userName": "Robert Morton",
+      "email": "joshua79@hotmail.com",
+      "age": 54,
+      "avatar": "https://placeimg.com/741/662/any"
+    },
+    {
+      "id": "US006",
+      "userName": "Jenny Marshall",
+      "email": "matthew19@johnson.org",
+      "age": 47,
+      "avatar": "https://dummyimage.com/705x7"
+    },
+    {
+      "id": "5292",
+      "userName": "nhan",
+      "email": "hainhan233@gmail.com",
+      "age": 20,
+      "avatar": "https://theuselessweb.com/"
+    }
+  ],
+  "posts": [
+    {
+      "content": "sua lai post nay nha2",
+      "isPublic": false,
+      "id": "P001"
+    },
+    {
+      "userId": "US005",
+      "content": "sua lai post nay nha2",
+      "isPublic": false,
+      "id": "P002"
+    },
+    {
+      "content": "sua lai post nay nha2",
+      "isPublic": false,
+      "id": "P003"
+    },
+    {
+      "id": "P004",
+      "userId": "US001",
+      "content": "Some likely fight.",
+      "createdAt": "18-01-1989",
+      "isPublic": true
+    },
+    {
+      "content": "sua lai post nay nha2",
+      "isPublic": false,
+      "id": "P005"
+    },
+    {
+      "id": "P006",
+      "userId": "US006",
+      "content": "Onto party Republican including traditional across reach.",
+      "createdAt": "25-09-2009",
+      "isPublic": false
+    },
+    {
+      "id": "1748",
+      "userId": "US001",
+      "content": "Day la bai post 1",
+      "isPublic": true
+    },
+    {
+      "id": "9f12",
+      "userId": "US00",
+      "content": "Day la bai post 1",
+      "isPublic": true
+    },
+    {
+      "id": "71aa",
+      "userId": "US00",
+      "content": "Day la bai post 1",
+      "isPublic": true
+    },
+    {
+      "id": "eab6",
+      "userId": "US001",
+      "content": "Day la bai post 1",
+      "isPublic": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "CMT001",
+      "postId": "P001",
+      "createdAt": "10-06-2024",
+      "userId": "US001",
+      "content": "Noi dung comment 1"
+    },
+    {
+      "id": "CMT002",
+      "postId": "P001",
+      "createdAt": "01-10-1984",
+      "userId": "US002",
+      "content": "Anyone month food future young conference statement."
+    },
+    {
+      "id": "CMT004",
+      "postId": "P003",
+      "createdAt": "29-11-2006",
+      "userId": "US003",
+      "content": "Economic quickly director guy day."
+    },
+    {
+      "id": "CMT005",
+      "postId": "P004",
+      "createdAt": "27-03-2013",
+      "userId": "US001",
+      "content": "Common area somebody city."
+    },
+    {
+      "id": "CMT006",
+      "postId": "P003",
+      "createdAt": "07-06-1995",
+      "userId": "US001",
+      "content": "Off south per point human."
+    },
+    {
+      "id": "CMT001",
+      "postId": "P001",
+      "userId": "US001",
+      "content": "Noi dung comment 2"
+    },
+    {
+      "id": "CMT001",
+      "postId": "P001",
+      "userId": "US001",
+      "content": "Noi dung comment 2"
+    }
+  ]
+}
